@@ -40,7 +40,7 @@
 
     # Technical metadata
     rb:usesOntology <http://schema.org/> ;
-    rb:hasStreamElementCount 617771 ;
+    rb:hasStreamElementCount 617768 ;
     rb:hasStreamElementType rb:triples ;
     rb:hasStreamElementSplit [
         a rb:TopicStreamElementSplit ;
