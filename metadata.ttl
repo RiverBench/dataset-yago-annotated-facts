@@ -19,7 +19,7 @@
     dcterms:identifier "yago-annotated-facts" ;
 
     dcterms:title "YAGO annotated facts"@en ;
-    dcterms:description "This is a subset of the [YAGO 4 knowledge base](https://yago-knowledge.org/downloads/yago-4), based on Wikidata, [version from February 24, 2020](https://yago-knowledge.org/data/yago4/full/2020-02-24/). This dataset includes only the fact annotations in RDF-star, that is facts about facts. Each stream element corresponds to one item in Wikidata."@en ;
+    dcterms:description "This is a subset of the [YAGO 4 knowledge base](https://yago-knowledge.org/downloads/yago-4) ([paper](https://suchanek.name/work/publications/eswc-2020-yago.pdf)), based on Wikidata, [version from February 24, 2020](https://yago-knowledge.org/data/yago4/full/2020-02-24/). This dataset includes only the fact annotations in RDF-star, that is facts about facts. Each stream element corresponds to one item in Wikidata."@en ;
     dcterms:issued "2023-04-30"^^xsd:date ;
 
     # License and attribution
@@ -38,6 +38,10 @@
         foaf:homepage <https://github.com/Ostrzyciel>, <https://orcid.org/0000-0002-2543-9461> ;
         rbdoc:hasDocWeight 3 ;
     ] ;
+    dcterms:source 
+        <https://yago-knowledge.org/downloads/yago-4> ,
+        <https://doi.org/10.1007%2F978-3-030-49461-2_34>
+    ;
     
     # Themes
     dcat:theme rbt:encyclopedic ;
