@@ -13,7 +13,7 @@
 
 # yago-annotated-facts (development version)
 
-This is a subset of the [YAGO 4 knowledge base](https://yago-knowledge.org/downloads/yago-4), based on Wikidata, [version from February 24, 2020](https://yago-knowledge.org/data/yago4/full/2020-02-24/). This dataset includes only the fact annotations in RDF-star, that is facts about facts. Each stream element corresponds to one item in Wikidata.
+This is a subset of the [YAGO 4 knowledge base](https://yago-knowledge.org/downloads/yago-4) ([paper](https://suchanek.name/work/publications/eswc-2020-yago.pdf)), based on Wikidata, [version from February 24, 2020](https://yago-knowledge.org/data/yago4/full/2020-02-24/). This dataset includes only the fact annotations in RDF-star, that is facts about facts. Each stream element corresponds to one item in Wikidata.
 
 *This README is a snapshot of documentation for the latest development version of the dataset.
 Full documentation for all versions can be found [on the website](https://w3id.org/riverbench/datasets/yago-annotated-facts/dev).*
@@ -36,20 +36,23 @@ Full documentation for all versions can be found [on the website](https://w3id.o
         - **<abbr title="A name for some thing.">Name</abbr>**: Piotr Sowiński
         - **<abbr title="A short informal nickname characterising an agent (includes login identifiers, IRC and other chat nicknames).">Nickname</abbr>**: Ostrzyciel
         - **<abbr title="A homepage for some thing.">Homepage</abbr>**:     
-            - [https://github.com/Ostrzyciel](https://github.com/Ostrzyciel)
-            - [https://orcid.org/0000-0002-2543-9461](https://orcid.org/0000-0002-2543-9461)
+            -  ([https://orcid.org/0000-0002-2543-9461](https://orcid.org/0000-0002-2543-9461))
+            - Ostrzyciel ([https://github.com/Ostrzyciel](https://github.com/Ostrzyciel))
 - **<abbr title="A legal document giving official permission to do something with the resource.">License</abbr>**: [https://spdx.org/licenses/CC-BY-SA-3.0](https://spdx.org/licenses/CC-BY-SA-3.0)
+- **<abbr title="A related resource from which the described resource is derived.">Source</abbr>**: 
+    - [https://doi.org/10.1007%2F978-3-030-49461-2_34](https://doi.org/10.1007%2F978-3-030-49461-2_34)
+    - [https://yago-knowledge.org/downloads/yago-4](https://yago-knowledge.org/downloads/yago-4)
 - **<abbr title="Date of formal issuance of the resource.">Date Issued</abbr>**: 2023-04-30
-- **<abbr title="Date on which the resource was changed.">Date Modified</abbr>**: 2023-05-02
+- **<abbr title="Date on which the resource was changed.">Date Modified</abbr>**: 2023-05-08
 - **<abbr title="A Web page that can be navigated to in a Web browser to gain access to the catalog, a dataset, its distributions and/or additional information.">Landing page</abbr>**: [yago-annotated-facts (dev)](https://w3id.org/riverbench/datasets/yago-annotated-facts/dev)
-- **<abbr title="An established standard to which the described resource conforms.">Conforms To</abbr>**: <abbr title="Ontology for describing datasets and profiles in the RiverBench benchmark suite.">RiverBench metadata ontology</abbr> ([https://w3id.org/riverbench/schema/metadata](https://w3id.org/riverbench/schema/metadata))
+- **<abbr title="An established standard to which the described resource conforms.">Conforms To</abbr>**: Metadata ([https://w3id.org/riverbench/schema/metadata](https://w3id.org/riverbench/schema/metadata))
 
 ## Technical metadata
 
 - **<abbr title="Indicates the type of contents of each stream element">Has stream element type</abbr>**: <abbr title="Triple streams consist of elements, where each element is an RDF graph.">Triples</abbr> ([rb:triples](https://w3id.org/riverbench/schema/metadata#triples))
 - **<abbr title="Number of elements in the stream">Has stream element count</abbr>**: 617,768
-- **Has stream element split**: 
-    - **Type**: Stream elements split by topic ([rb:TopicStreamElementSplit](https://w3id.org/riverbench/schema/metadata#TopicStreamElementSplit))
+- **<abbr title="Indicates how the stream was split into elements.">Has stream element split</abbr>**: 
+    - **Type**: <abbr title="The elements correspond to different topics/subjects in the dataset.">Stream elements split by topic</abbr> ([rb:TopicStreamElementSplit](https://w3id.org/riverbench/schema/metadata#TopicStreamElementSplit))
     - **<abbr title="A description of the subject resource.">Comment</abbr>**: Every stream element corresponds to one Wikidata item.
 - **<abbr title="Indicates that the dataset uses an ontology. The object must be a resource, but it doesn't neccesarily have to be an OWL ontology.">Uses ontology</abbr>**: [http://schema.org/](http://schema.org/)
 - **<abbr title="Whether the dataset is RDF 1.1-compliant, i.e., does not use any non-standard features, like generalized triples.">Conforms to W3C RDF 1.1 specification</abbr>**: no
