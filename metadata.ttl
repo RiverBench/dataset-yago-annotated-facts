@@ -1,10 +1,10 @@
 @prefix : <https://w3id.org/riverbench/temp#> .
 @prefix dcat: <http://www.w3.org/ns/dcat#> .
 @prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix eurovoc: <http://eurovoc.europa.eu/> .
 @prefix foaf: <http://xmlns.com/foaf/0.1/> .
 @prefix rb: <https://w3id.org/riverbench/schema/metadata#> .
 @prefix rbdoc: <https://w3id.org/riverbench/schema/documentation#> .
-@prefix rbt: <https://w3id.org/riverbench/schema/theme#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix spdx: <http://spdx.org/rdf/terms#> .
 @prefix stax: <https://w3id.org/stax/ontology#> .
@@ -45,7 +45,11 @@
     ;
     
     # Themes
-    dcat:theme rbt:encyclopedic ;
+    dcat:theme 
+        eurovoc:4137, # encyclopedia
+        eurovoc:c_5ea6e5c4, # open data
+        eurovoc:c_40f54e0c # metadata
+    ;
 
     # Technical metadata
     rb:usesOntology <http://schema.org/> ;
