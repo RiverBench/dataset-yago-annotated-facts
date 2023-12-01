@@ -8,6 +8,7 @@
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix spdx: <http://spdx.org/rdf/terms#> .
 @prefix stax: <https://w3id.org/stax/ontology#> .
+@prefix void: <http://rdfs.org/ns/void#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
 # This file contains the manually written metadata for the dataset.
@@ -52,7 +53,7 @@
     ;
 
     # Technical metadata
-    rb:usesOntology <http://schema.org/> ;
+    void:vocabulary <http://schema.org/> ;
     rb:hasStreamElementCount 617768 ;
     stax:hasStreamTypeUsage [
         a stax:RdfStreamTypeUsage ;
