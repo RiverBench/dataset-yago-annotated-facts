@@ -46,7 +46,7 @@ Full documentation for all versions can be found [on the website](https://w3id.o
     - [https://doi.org/10.1007%2F978-3-030-49461-2_34](https://doi.org/10.1007%2F978-3-030-49461-2_34)
     - [https://yago-knowledge.org/downloads/yago-4](https://yago-knowledge.org/downloads/yago-4)
 - **<abbr title="Date of formal issuance of the resource.">Date Issued</abbr>**: 2023-04-30
-- **<abbr title="Date on which the resource was changed.">Date Modified</abbr>**: 2024-06-04
+- **<abbr title="Date on which the resource was changed.">Date Modified</abbr>**: 2024-06-05
 - **<abbr title="A Web page that can be navigated to in a Web browser to gain access to the catalog, a dataset, its distributions and/or additional information.">Landing page</abbr>**: [yago-annotated-facts (dev)](https://w3id.org/riverbench/datasets/yago-annotated-facts/dev)
 - **<abbr title="An established standard to which the described resource conforms.">Conforms To</abbr>**: Metadata ([https://w3id.org/riverbench/schema/metadata](https://w3id.org/riverbench/schema/metadata))
 
